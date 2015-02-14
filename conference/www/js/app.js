@@ -61,7 +61,7 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     url: '/4ball',
     views: {
       'menuContent':{
-        templateUrl: 'templates/browse.html'
+        templateUrl: 'templates/4ball.html'
       }
     }
   })
