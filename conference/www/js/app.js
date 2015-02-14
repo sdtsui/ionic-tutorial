@@ -57,6 +57,15 @@ angular.module('starter', ['ionic', 'starter.controllers'])
     }
   })
 
+  .state('app.4ball', {
+    url: '/4ball',
+    views: {
+      'menuContent':{
+        templateUrl: 'templates/browse.html'
+      }
+    }
+  })
+
   .state('app.session', {
       url: "/sessions/:sessionId",
       views: {
